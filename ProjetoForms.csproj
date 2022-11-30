@@ -234,18 +234,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Abstract-form-of-fluid.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Abstract-form-of-fluid1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\istockphoto-1157172845-612x612.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\istockphoto-1185144723-170667a.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

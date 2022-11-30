@@ -44,11 +44,25 @@ namespace ProjetoForms {
             }else 
             {
                 MessageBox.Show("Usuário ou senha invalido.", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox1.Focus();
             }
         }
 
         private void button2_Click(object sender, EventArgs e) {
+            new Form2().Show();
+            this.Hide();
+        }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e) {
+            if(checkBox1.Checked) 
+            {
+                textBox2.PasswordChar = '\0';
+            }else 
+            {
+                textBox2.PasswordChar = '*';
+            }
         }
     }
 }
